@@ -4,6 +4,6 @@
 
 @layer components {
   .wrapper {
-    @apply mx-auto flex w-full max-w-screen-xl justify-between px-4 py-3;
+    @apply mx-auto w-full max-w-screen-xl;
   }
 }

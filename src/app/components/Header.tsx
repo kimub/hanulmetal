@@ -4,7 +4,7 @@ import menu from '../../../public/menu.svg';
 
 export default function Header() {
   return (
-    <header className='wrapper'>
+    <header className='wrapper flex justify-between px-4 py-3'>
       <Image src={logo} alt='한울메탈릭스' />
       <Image src={menu} alt='메뉴' />
     </header>
