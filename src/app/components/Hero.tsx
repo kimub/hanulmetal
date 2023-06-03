@@ -5,7 +5,7 @@ import hanulmetal3 from '../../../public/hanulmetal3.png';
 
 export default function Hero() {
   return (
-    <section className='wrapper flex flex-col items-center gap-6 p-8'>
+    <section className='wrapper flex flex-col items-center gap-6'>
       <div className='flex w-full flex-col gap-6'>
         <Image src={hanulmetal1} alt='한울메탈' className='w-full' />
         <div className='flex gap-6'>
