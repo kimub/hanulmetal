@@ -6,7 +6,7 @@ import hanulmetal3_m from '../../public/hanulmetal3_m.png';
 export default function Hero() {
   return (
     <section
-      className='wrapper safe-area-mt-14 md:safe-area-mt-20 flex flex-col gap-6 md:flex-row md:justify-start md:gap-12 lg:gap-20'
+      className='wrapper safe-area-pt-14 md:safe-area-pt-24 flex flex-col gap-6 md:flex-row md:justify-start md:gap-12 lg:gap-20'
       id='company'
     >
       <div className='flex w-full flex-col gap-4 md:w-2/4 lg:gap-6'>

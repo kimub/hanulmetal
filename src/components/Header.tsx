@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header
-      className='fixed top-0 w-full bg-white transition-all duration-500'
+      className='fixed left-0 right-0 top-0 w-full bg-white transition-all duration-500'
       // ref={headerRef}
     >
       <div className='safe-area-pt-3 md:safe-area-pt-6 mx-auto flex max-w-screen-xl justify-center border-secondary px-4 pb-3 md:justify-between md:pb-6'>
