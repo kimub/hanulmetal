@@ -17,6 +17,11 @@ export default function RootLayout({
     <html className='scroll-smooth' lang='ko'>
       <head>
         <title>한울메탈릭스</title>
+        <meta name='author' content='kimub' />
+        <meta
+          name='keywords'
+          content='한울메탈, 한울메탈릭스, 폐판넬, 폐기물, 해양폐기물, 철거, 유품정리, 경남폐기물, 부산폐기물, 울산폐기물, 경남폐판넬, 부산폐판넬, 울산폐판넬, 쓰레기집'
+        />
         <meta property='og:site_name' content='한울메탈릭스' />
         <meta property='og:locale' content='ko' />
         <meta property='og:image:width' content='1200' />
@@ -24,7 +29,6 @@ export default function RootLayout({
         <meta property='og:title' content='한울메탈릭스' />
         <meta property='og:url' content='https://www.hanulmetal.co.kr' />
         <meta property='og:type' content='website' />
-
         <meta
           name='naver-site-verification'
           content='5fb1a65fa1d8d5279f89ef94991022465d244d40'
