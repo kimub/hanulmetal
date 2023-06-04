@@ -115,10 +115,23 @@ export default function RootLayout({
         />
         <meta
           name='description'
-          content='모든 폐판넬(스티로폼 , 그라스울, 우레탄, 난연) 철거, 처리 및 해양 폐기물 (부표, 스티로폼, 어망) 전문 처리 정식 허가 업체 한울메탈릭스입니다. 저희 한울메탈릭스는 어떠한 조건의 현장과 폐기물도 합리적인 가격과 최고의 작업 노하우로 고객님들을 만족시켜 드리는 환경 기업이 되겠습니다.'
+          content='모든 폐판넬, 폐기물 철거 및 처리전문 정식허가업체 한울메탈입니다.'
         />
+        <script type="application/ld+json">
+          {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "한울메탈릭스",
+          "url": "https://www.hanulmetal.co.kr/",
+          "sameAs": [
+            "https://blog.naver.com/yeon460"
+          ]
+          }
+        </script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
