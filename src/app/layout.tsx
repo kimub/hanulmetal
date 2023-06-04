@@ -89,7 +89,7 @@ export default function RootLayout({
 
         <meta
           property='og:image'
-          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685857138/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_jokzmg.png'
+          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685861994/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_image_wfawvq.png'
         />
         <meta
           property='og:description'
@@ -97,7 +97,7 @@ export default function RootLayout({
         />
         <meta
           name='twitter:card'
-          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685857138/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_jokzmg.png'
+          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685861994/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_image_wfawvq.png'
         />
         <meta name='twitter:title' content='한울메탈릭스' />
         <meta
@@ -106,7 +106,7 @@ export default function RootLayout({
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685857138/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_jokzmg.png'
+          content='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685861994/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/opengarph_image_wfawvq.png'
         />
         <meta
           name='description'
