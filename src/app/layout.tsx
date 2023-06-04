@@ -22,7 +22,7 @@ export default function RootLayout({
         <meta property='og:image:width' content='1200' />
         <meta property='og:image:height' content='630' />
         <meta property='og:title' content='한울메탈릭스' />
-        <meta property='og:url' content='웹페이지 URL' />
+        <meta property='og:url' content='https://www.hanulmetal.co.kr' />
         <meta property='og:type' content='website' />
 
         <meta
