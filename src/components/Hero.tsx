@@ -9,24 +9,36 @@ export default function Hero() {
       className='wrapper safe-area-mt-14 md:safe-area-mt-20 flex flex-col gap-6 md:flex-row md:justify-start md:gap-12 lg:gap-20'
       id='company'
     >
-      <div className='flex w-full flex-col gap-6 md:w-2/4'>
+      <div className='flex w-full flex-col gap-4 md:w-2/4 lg:gap-6'>
         <Image src={hanulmetal1_m} alt='한울메탈' className='w-full' priority />
-        <div className='flex gap-6'>
+        <Image
+          src={hanulmetal2_m}
+          alt='한울메탈'
+          className='w-full lg:hidden'
+          priority
+        />
+        <Image
+          src={hanulmetal3_m}
+          alt='한울메탈'
+          className='w-full lg:hidden'
+          priority
+        />
+        <div className='hidden lg:flex lg:gap-6'>
           <Image
             src={hanulmetal2_m}
             alt='한울메탈'
-            className='w-full'
+            className='lg:hero-img-w w-full'
             priority
           />
           <Image
             src={hanulmetal3_m}
             alt='한울메탈'
-            className='w-full'
+            className='lg:hero-img-w w-full'
             priority
           />
         </div>
       </div>
-      <div className='flex flex-col items-center gap-6 break-keep text-center font-semibold md:w-2/4 md:items-start md:justify-center md:text-left'>
+      <div className='mt-4 flex flex-col items-center gap-6 break-keep text-center font-semibold md:mt-0 md:w-2/4 md:items-start md:justify-center md:text-left'>
         <h2 className='text-center text-2xl font-bold leading-10 md:text-left lg:text-4xl lg:leading-[3rem]'>
           폐판넬 / 해양 폐기물 / 스티로폼
           <br />

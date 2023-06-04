@@ -37,6 +37,10 @@
     margin-top: calc(constant(safe-area-inset-bottom) + 5rem);
     margin-top: calc(env(safe-area-inset-bottom) + 5rem);
   }
+
+  .hero-img-w {
+    width: calc(50% - 0.75rem);
+  }
 }
 
 @font-face {
