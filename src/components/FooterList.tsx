@@ -6,7 +6,7 @@ type Props = {
 export default function FooterList({ title, description }: Props) {
   return (
     <tr className='text-left md:text-lg'>
-      <td className='w-20' colSpan={description ? 0 : 2}>
+      <td className='w-30' colSpan={description ? 0 : 2}>
         {title}
       </td>
       <td>{description || ''}</td>
