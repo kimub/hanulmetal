@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className='hidden md:block'>
+    <nav className='hidden md:flex md:items-center'>
       <ul className='mr-4 flex gap-8 font-semibold lg:text-lg'>
         <li>
           <a href='#company'>회사 소개</a>

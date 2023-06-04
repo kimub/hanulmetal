@@ -70,14 +70,11 @@ export default function Hero() {
           <a
             href='https://blog.naver.com/yeon460'
             target='_blank'
-            className='mt-4 block w-32 rounded-lg bg-primary px-6 py-4 text-center tracking-wider text-white md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl'
+            className='btn'
           >
             블로그
           </a>
-          <a
-            href='tel:010-9326-5656'
-            className='mt-4 block w-32 rounded-lg bg-primary px-6 py-4 text-center tracking-wider text-white md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl'
-          >
+          <a href='tel:010-9326-5656' className='btn'>
             문의하기
           </a>
         </div>
