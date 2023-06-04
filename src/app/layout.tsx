@@ -1,5 +1,13 @@
 import './globals.css';
 
+const structuredData = {
+  '@context': 'http://schema.org',
+  '@type': 'Person',
+  name: '한울메탈릭스',
+  url: 'https://www.hanulmetal.co.kr',
+  sameAs: ['https://blog.naver.com/yeon460'],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -117,14 +125,12 @@ export default function RootLayout({
           name='description'
           content='모든 폐판넬, 폐기물 철거 및 처리전문 정식허가업체 한울메탈입니다.'
         />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </head>
-      <body>
-        <span itemscope='' itemtype='http://schema.org/Organization'>
-          <link itemprop='url' href='https://www.hanulmetal.co.kr' />
-          <a itemprop='sameAs' href='https://blog.naver.com/yeon460'></a>
-        </span>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
