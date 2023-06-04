@@ -4,10 +4,136 @@
 
 @layer components {
   .wrapper {
-    @apply mx-auto w-full max-w-screen-xl px-8 pb-20 pt-8 text-center;
+    @apply mx-auto w-full max-w-screen-xl px-8 pb-16 pt-8 text-center lg:pb-20 lg:pt-12;
   }
 
   .title {
-    @apply mt-4 text-2xl font-bold;
+    @apply mt-4 text-xl font-bold md:text-2xl lg:text-3xl;
   }
+}
+
+@layer utilities {
+  .safe-area-pt-3 {
+    padding-top: calc(constant(safe-area-inset-bottom) + 0.75rem);
+    padding-top: calc(env(safe-area-inset-bottom) + 0.75rem);
+  }
+
+  .safe-area-pt-6 {
+    padding-top: calc(constant(safe-area-inset-bottom) + 1.5rem);
+    padding-top: calc(env(safe-area-inset-bottom) + 1.5rem);
+  }
+
+  .safe-area-pb-8 {
+    padding-bottom: calc(constant(safe-area-inset-bottom) + 2rem);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 2rem);
+  }
+
+  .safe-area-mt-14 {
+    margin-top: calc(constant(safe-area-inset-bottom) + 3.5rem);
+    margin-top: calc(env(safe-area-inset-bottom) + 3.5rem);
+  }
+
+  .safe-area-mt-20 {
+    margin-top: calc(constant(safe-area-inset-bottom) + 5rem);
+    margin-top: calc(env(safe-area-inset-bottom) + 5rem);
+  }
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff')
+    format('woff');
+  font-weight: 100;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff')
+    format('woff');
+  font-weight: 200;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff')
+    format('woff');
+  font-weight: 300;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff')
+    format('woff');
+  font-weight: 500;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff')
+    format('woff');
+  font-weight: 600;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff')
+    format('woff');
+  font-weight: 700;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff')
+    format('woff');
+  font-weight: 800;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff')
+    format('woff');
+  font-weight: 900;
+  transform: rotate(0.04deg);
+  font-style: normal;
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* 아래의 모든 코드는 영역::코드로 사용 */
+body::-webkit-scrollbar {
+  width: 6px; /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ed1556; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f7f7f7; /*스크롤바 뒷 배경 색상*/
 }
