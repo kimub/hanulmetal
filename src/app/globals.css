@@ -12,7 +12,7 @@
   }
 
   .btn {
-    @apply mt-4 block w-32 rounded-lg border-2 border-primary bg-primary px-6 py-4 text-center tracking-wider text-white transition duration-200 hover:bg-white hover:text-primary md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl;
+    @apply mt-4 block w-32 rounded-lg border-2 border-primary bg-primary px-6 py-4 text-center font-semibold tracking-wider text-white transition duration-200 hover:bg-white hover:text-primary md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl;
   }
 }
 
@@ -44,6 +44,18 @@
 
   .hero-img-w {
     width: calc(50% - 0.75rem);
+  }
+
+  .notfound-content-h-m {
+    height: calc(100vh - (292px));
+  }
+
+  .notfound-content-h-t {
+    height: calc(100vh - (420px));
+  }
+
+  .notfound-content-h-d {
+    height: calc(100vh - (452px));
   }
 }
 
@@ -132,16 +144,15 @@ body {
   font-family: 'Pretendard', sans-serif;
 }
 
-/* 아래의 모든 코드는 영역::코드로 사용 */
 body::-webkit-scrollbar {
-  width: 6px; /* 스크롤바의 너비 */
+  width: 6px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ed1556; /* 스크롤바의 색상 */
+  background-color: #ed1556;
   border-radius: 10px;
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #f7f7f7; /*스크롤바 뒷 배경 색상*/
+  background-color: #f7f7f7;
 }

@@ -1,4 +1,6 @@
+import Header from '@/components/Header';
 import './globals.css';
+import Footer from '@/components/Footer';
 
 const structuredData = {
   '@context': 'http://schema.org',
@@ -134,7 +136,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
