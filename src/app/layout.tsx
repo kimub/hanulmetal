@@ -17,6 +17,11 @@ export default function RootLayout({
         <meta property='og:url' content='웹페이지 URL' />
         <meta property='og:type' content='website' />
 
+        <meta
+          name='naver-site-verification'
+          content='5fb1a65fa1d8d5279f89ef94991022465d244d40'
+        />
+
         <link
           rel='icon'
           type='image/png'
