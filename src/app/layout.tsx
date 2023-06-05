@@ -21,7 +21,7 @@ export default function RootLayout({
         <title>한울메탈릭스</title>
         <link
           rel='icon'
-          href='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685860926/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/favicon_32x32_dsuaxi.png'
+          href='https://res.cloudinary.com/dhfkiaac8/image/upload/v1685942890/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/favicon_32x32_vmezv0.ico'
         />
         <meta name='author' content='kimub' />
         <meta
