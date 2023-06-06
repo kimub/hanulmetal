@@ -66,15 +66,15 @@ export default function RootLayout({
           name='naver-site-verification'
           content='5fb1a65fa1d8d5279f89ef94991022465d244d40'
         />
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
       </head>
       <body>
         <Header />
         {children}
         <Footer />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        ></script>
       </body>
     </html>
   );
