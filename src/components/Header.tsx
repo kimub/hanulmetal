@@ -43,6 +43,7 @@ export default function Header() {
         setIsShowingDrawer((prev) => ({ ...prev, topNav: false }))
       }
     >
+      <Divider />
       <List>
         {[
           { text: '홈', href: '/', code: 'home', icon: <HomeIcon /> },

@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import Drawer from '@mui/material/Drawer';
 import { SetStateAction } from 'react';
 
@@ -30,7 +31,7 @@ export default function CustomDrawer({
       onClose={() => handleNav()}
       anchor='top'
     >
-      {list()}
+      <Box sx={{ py: 5 }}>{list()}</Box>
     </Drawer>
   );
 }
