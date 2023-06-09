@@ -61,7 +61,7 @@ export default function Pictures() {
             >
               <motion.img
                 src={src}
-                className='rounded'
+                className='h-full rounded object-cover'
                 alt='nothing'
                 width='100%'
               />

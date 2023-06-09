@@ -72,11 +72,11 @@ export const pictures = [
     category: 'waste',
   },
   {
-    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/10_qcwjwh.jpg',
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/10_qcwjwh.jpg',
     category: 'waste',
   },
   {
-    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/11_m6qvcw.jpg',
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/11_m6qvcw.jpg',
     category: 'waste',
   },
 ];
