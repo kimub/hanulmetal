@@ -108,11 +108,11 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-10 w-full bg-white transition-all duration-500 ${
+      className={`fixed left-0 right-0 top-0 z-10 w-full bg-white transition-all duration-300 ${
         isScroll ? 'opacity-90' : ''
       }`}
     >
-      <div className='safe-area-pt-3 md:safe-area-pt-6 mx-auto flex max-w-screen-xl justify-between border-secondary px-4 pb-3 md:justify-between md:pb-6'>
+      <div className='safe-area-pt-3 md:safe-area-pt-6 mx-auto flex max-w-screen-xl justify-between border-secondary px-4 pb-3 transition-all duration-300 md:justify-between md:pb-6 md:hover:mb-10 md:hover:mt-2'>
         <Link href='/'>
           <Image
             src={logo}
