@@ -22,7 +22,7 @@ export default function Inquiry() {
           <InquiryList
             src={pin}
             title='오시는 길'
-            info={['울산 울주군 삼동명 사촌신복로 359-14']}
+            info={['울산 울주군 삼동면 사촌신복로 359-14']}
           />
         </ul>
       </div>
