@@ -30,17 +30,23 @@ export default function Gallery() {
         </li>
         <li className='relative md:w-1/4'>
           <Image src={hanulmetal9} alt='한울메탈' className='h-full w-full' />
-          <div className='absolute -bottom-9 right-0 hidden items-center justify-end gap-3 text-primary md:flex'>
-            <FiArrowRightCircle size={32} className='text-primary' />
-            <Link href='/gallery' className='text-xl font-semibold'>
+          <div className='absolute -bottom-10 right-0 hidden items-center justify-end hover:text-primary md:block'>
+            <Link
+              href='/gallery'
+              className='flex items-center gap-2 text-xl font-semibold'
+            >
+              <FiArrowRightCircle size={32} className='hover:text-primary' />
               더보기
             </Link>
           </div>
         </li>
       </ul>
-      <p className='mt-2 flex items-center justify-end gap-3 text-primary md:hidden'>
-        <FiArrowRightCircle size={32} className='text-primary' />
-        <Link href='/gallery' className='text-xl font-semibold'>
+      <p className='mt-2 flex items-center justify-end gap-3 hover:text-primary md:hidden'>
+        <Link
+          href='/gallery'
+          className='flex items-center gap-2 text-xl font-semibold'
+        >
+          <FiArrowRightCircle size={32} className='hover:text-primary' />
           더보기
         </Link>
       </p>

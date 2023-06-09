@@ -20,7 +20,7 @@ export default function Nav() {
         </li>
         <li className='group cursor-pointer'>
           <div>갤러리</div>
-          <div className='invisible absolute bottom-4 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100'>
+          <div className='invisible absolute bottom-3 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100'>
             <div>
               <a href={pathname === '/' ? '#gallery' : '/#gallery'}>
                 간단 갤러리
