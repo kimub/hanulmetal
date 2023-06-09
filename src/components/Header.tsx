@@ -59,7 +59,7 @@ export default function Header() {
             icon: <WorkIcon />,
           },
           {
-            text: '갤러리',
+            text: '간단 갤러리',
             href: '/#gallery',
             code: 'gallery',
             icon: <CollectionsIcon />,

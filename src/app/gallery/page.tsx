@@ -3,9 +3,11 @@ import Pictures from '@/components/Pictures';
 
 export default function Gallery() {
   return (
-    <section className='wrapper safe-area-pt-14 md:safe-area-pt-24 flex flex-col md:justify-start'>
+    <section className='pt-14 md:pt-24'>
       <Bar text='상세 갤러리(작업 내용)' isHome={false} />
-      <Pictures />
+      <div className='wrapper safe-area-pt-14 md:safe-area-pt-24 flex flex-col md:justify-start'>
+        <Pictures />
+      </div>
     </section>
   );
 }

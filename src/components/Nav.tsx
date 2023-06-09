@@ -18,12 +18,17 @@ export default function Nav() {
         <li>
           <a href={pathname === '/' ? '#work' : '/#work'}>주요 업무</a>
         </li>
-        <li className='group'>
-          <div>
-            <a href={pathname === '/' ? '#gallery' : '/#gallery'}>갤러리</a>
-          </div>
-          <div className='invisible absolute bottom-2 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100'>
-            <Link href='/gallery'>상세 갤러리</Link>
+        <li className='group cursor-pointer'>
+          <div>갤러리</div>
+          <div className='invisible absolute -bottom-6 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100'>
+            <div>
+              <a href={pathname === '/' ? '#gallery' : '/#gallery'}>
+                간단 갤러리
+              </a>
+            </div>
+            <div>
+              <Link href='/gallery'>상세 갤러리</Link>
+            </div>
           </div>
         </li>
         <li>

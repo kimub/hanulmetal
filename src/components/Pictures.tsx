@@ -27,7 +27,7 @@ export default function Pictures() {
   };
 
   return (
-    <section className='mt-16 h-full md:mt-24 lg:mt-32'>
+    <section className='mt-6 md:mt-12'>
       <div className='justify-between md:flex'>
         <FilterBtn
           category='all'
@@ -48,7 +48,7 @@ export default function Pictures() {
           onClick={handleCategoryClick}
         />
       </div>
-      <div className='mt-20 grid grid-cols-1 gap-2 md:grid-cols-3'>
+      <div className='mt-20 grid grid-cols-1 gap-2 base:grid-cols-2 md:grid-cols-3'>
         <AnimatePresence>
           {displayData.map(({ src }, i) => (
             <motion.div
@@ -61,7 +61,7 @@ export default function Pictures() {
             >
               <motion.img
                 src={src}
-                className='h-full rounded'
+                className='rounded'
                 alt='nothing'
                 width='100%'
               />
