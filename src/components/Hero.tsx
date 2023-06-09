@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import hanulmetal1_m from '../../public/hanulmetal1_m.png';
-import hanulmetal2_m from '../../public/hanulmetal2_m.png';
-import hanulmetal3_m from '../../public/hanulmetal3_m.png';
+import hanulmetal1 from '../../public/hanulmetal1.png';
+import hanulmetal2 from '../../public/hanulmetal2.png';
+import hanulmetal3 from '../../public/hanulmetal3.png';
 
 export default function Hero() {
   return (
@@ -10,28 +10,28 @@ export default function Hero() {
       id='company'
     >
       <div className='flex w-full flex-col gap-4 md:w-2/4 lg:gap-6'>
-        <Image src={hanulmetal1_m} alt='한울메탈' className='w-full' priority />
+        <Image src={hanulmetal1} alt='한울메탈' className='w-full' priority />
         <Image
-          src={hanulmetal2_m}
+          src={hanulmetal2}
           alt='한울메탈'
           className='w-full lg:hidden'
           priority
         />
         <Image
-          src={hanulmetal3_m}
+          src={hanulmetal3}
           alt='한울메탈'
           className='w-full lg:hidden'
           priority
         />
         <div className='hidden lg:flex lg:gap-6'>
           <Image
-            src={hanulmetal2_m}
+            src={hanulmetal2}
             alt='한울메탈'
             className='lg:hero-img-w w-full'
             priority
           />
           <Image
-            src={hanulmetal3_m}
+            src={hanulmetal3}
             alt='한울메탈'
             className='lg:hero-img-w w-full'
             priority

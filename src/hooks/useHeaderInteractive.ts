@@ -1,19 +1,15 @@
-import { useLayoutEffect, useRef } from 'react';
+import { useLayoutEffect, useState } from 'react';
 
 export function useHeaderInteractive() {
-  const headerRef =
-    useRef<HTMLElement>() as React.MutableRefObject<HTMLElement>;
-
+  const [isScroll, setIsScroll] = useState(false);
   useLayoutEffect(() => {
-    headerRef.current.classList.add('opacity-90');
-
     const handleHeaderOpacity = () => {
-      if (window.scrollY <= 0) {
-        headerRef.current.classList.remove('opacity-90');
+      if (window.scrollY > 0) {
+        setIsScroll(true);
         return;
       }
 
-      headerRef.current.classList.add('opacity-90');
+      setIsScroll(false);
     };
 
     window.addEventListener('scroll', handleHeaderOpacity);
@@ -23,5 +19,5 @@ export function useHeaderInteractive() {
     };
   }, []);
 
-  return headerRef;
+  return { isScroll };
 }

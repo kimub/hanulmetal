@@ -14,6 +14,14 @@
   .btn {
     @apply mt-4 block w-32 rounded-lg border-2 border-primary bg-primary px-6 py-4 text-center font-semibold tracking-wider text-white transition duration-200 hover:bg-white hover:text-primary md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl;
   }
+
+  .filtered-btn {
+    @apply mt-4 block w-32 rounded-lg border-2 border-primary bg-primary px-6 py-4 text-center font-semibold tracking-wider text-white transition duration-200 md:mt-0 md:px-4 md:py-4 lg:px-6 lg:text-xl;
+  }
+
+  .btn-disabled {
+    @apply opacity-50;
+  }
 }
 
 @layer utilities {
@@ -140,14 +148,5 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #ed1556;
-  border-radius: 10px;
-}
-
-body::-webkit-scrollbar-track {
-  background-color: #f7f7f7;
+  width: 0px;
 }

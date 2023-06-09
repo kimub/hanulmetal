@@ -1,6 +1,14 @@
+'use client';
+import { usePathname } from 'next/navigation';
 import FooterList from './FooterList';
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  if (pathname === '/gallery') {
+    return null;
+  }
+
   return (
     <footer className='bg-black pt-8 text-xs text-white'>
       <div className='wrapper'>
