@@ -9,7 +9,10 @@ import FsLightbox from 'fslightbox-react';
 export default function Pictures() {
   const [displayData, setDisplayData] = useState(pictures);
   const [active, setActive] = useState('all');
-  const [isShowingImg, setIsShowingImg] = useState(true);
+  const [isShowingImg, setIsShowingImg] = useState({
+    toggler: false,
+    slide: 1,
+  });
 
   const handleCategoryClick = (category: string) => {
     if (category === active) return;
@@ -53,7 +56,7 @@ export default function Pictures() {
         </div>
         <div className='mt-20 grid grid-cols-1 gap-2 base:grid-cols-2 md:grid-cols-3'>
           <AnimatePresence>
-            {displayData.map(({ src }, i) => (
+            {displayData.map(({ src, lightboxSrc }, i) => (
               <motion.div
                 style={{ overflow: 'hidden' }}
                 key={i}
@@ -62,11 +65,18 @@ export default function Pictures() {
                 animate={{ transform: 'scale(1)' }}
                 exit={{ transform: 'scale(0)' }}
               >
-                <div onClick={() => setIsShowingImg((prev) => !prev)}>
+                <div
+                  onClick={() =>
+                    setIsShowingImg((prev) => ({
+                      toggler: !prev.toggler,
+                      slide: i + 1,
+                    }))
+                  }
+                >
                   <motion.img
                     src={src}
                     className='h-full rounded object-cover hover:cursor-pointer hover:brightness-50'
-                    alt='nothing'
+                    alt={lightboxSrc}
                     width='100%'
                   />
                 </div>
@@ -74,18 +84,31 @@ export default function Pictures() {
             ))}
           </AnimatePresence>
         </div>
-        {
+        {active === 'all' && (
           <FsLightbox
-            toggler={isShowingImg}
-            sources={
-              active === 'all'
-                ? pictures.map((item) => item.lightboxSrc)
-                : pictures
-                    .filter((item) => item.category === active)
-                    .map((item) => item.lightboxSrc)
-            }
+            toggler={isShowingImg.toggler}
+            sources={pictures.map((item) => item.lightboxSrc)}
+            slide={isShowingImg.slide}
           />
-        }
+        )}
+        {active === 'panel' && (
+          <FsLightbox
+            toggler={isShowingImg.toggler}
+            sources={pictures
+              .filter((item) => item.category === 'panel')
+              .map((item) => item.lightboxSrc)}
+            slide={isShowingImg.slide}
+          />
+        )}
+        {active === 'waste' && (
+          <FsLightbox
+            toggler={isShowingImg.toggler}
+            sources={pictures
+              .filter((item) => item.category === 'waste')
+              .map((item) => item.lightboxSrc)}
+            slide={isShowingImg.slide}
+          />
+        )}
       </section>
     </>
   );
