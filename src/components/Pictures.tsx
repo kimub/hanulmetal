@@ -66,6 +66,7 @@ export default function Pictures() {
                 exit={{ transform: 'scale(0)' }}
               >
                 <div
+                  className='h-full'
                   onClick={() =>
                     setIsShowingImg((prev) => ({
                       toggler: !prev.toggler,
