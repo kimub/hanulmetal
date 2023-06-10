@@ -31,7 +31,7 @@ export default function CustomDrawer({
       onClose={() => handleNav()}
       anchor='top'
     >
-      <Box sx={{ py: 5 }}>{list()}</Box>
+      <Box sx={{ py: 2 }}>{list()}</Box>
     </Drawer>
   );
 }

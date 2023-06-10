@@ -47,7 +47,7 @@ export default function Hero() {
         <p className='text-base leading-6 lg:text-xl lg:leading-8'>
           모든 폐판넬(스티로폼 , 그라스울, 우레탄, 난연)
           <br />
-          철거, 처리 및 해양 폐기물 (부표, 스티로폼, 어망)
+          철거, 처리 및 해양 폐기물(부표, 스티로폼, 어망)
           <br />
           전문 처리 정식 허가 업체&nbsp;
           <span className='text-primary'>한울메탈릭스</span>입니다.
