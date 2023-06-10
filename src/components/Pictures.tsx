@@ -65,7 +65,7 @@ export default function Pictures() {
                 <div onClick={() => setIsShowingImg((prev) => !prev)}>
                   <motion.img
                     src={src}
-                    className='h-full rounded object-cover'
+                    className='h-full rounded object-cover hover:cursor-pointer hover:brightness-50'
                     alt='nothing'
                     width='100%'
                   />
