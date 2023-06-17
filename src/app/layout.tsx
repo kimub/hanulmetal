@@ -2,7 +2,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const structuredData = {
+const jsonLd = {
   '@context': 'http://schema.org',
   '@type': 'Person',
   name: '한울메탈릭스',
@@ -71,10 +71,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        ></script>
+        <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script>
       </body>
     </html>
   );
