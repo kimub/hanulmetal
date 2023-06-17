@@ -1,5 +1,11 @@
 import Bar from '@/components/Bar';
 import Pictures from '@/components/Pictures';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '한울메탈릭스 상세 갤러리',
+  description: '한울메탈릭스 상세 갤러리입니다.',
+};
 
 export default function Gallery() {
   return (
