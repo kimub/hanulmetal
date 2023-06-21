@@ -30,6 +30,32 @@ export const pictures = [
       'https://res.cloudinary.com/dhfkiaac8/image/upload/v1686321239/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/5_gcnpmy.jpg',
   },
   {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/6_n1dutb.jpg',
+    category: 'panel',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/6_n1dutb.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/7_zn6qop.jpg',
+    category: 'panel',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/7_zn6qop.jpg',
+  },
+
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/8_saexr7.jpg',
+    category: 'panel',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/8_saexr7.jpg',
+  },
+
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/9_ffgs5v.jpg',
+    category: 'panel',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308499/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%20%ED%8C%90%EB%84%AC%20%EC%B2%98%EB%A6%AC/9_ffgs5v.jpg',
+  },
+  {
     src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/1_rrjm6e.jpg',
     category: 'waste',
     lightboxSrc:
@@ -108,15 +134,58 @@ export const pictures = [
       'https://res.cloudinary.com/dhfkiaac8/image/upload/v1686321253/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/15_mzlpwm.jpg',
   },
   {
-    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/10_qcwjwh.jpg',
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/10_qcwjwh.jpg',
     category: 'waste',
     lightboxSrc:
       'https://res.cloudinary.com/dhfkiaac8/image/upload/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/10_qcwjwh.jpg',
   },
   {
-    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/11_m6qvcw.jpg',
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/c_scale,h_520/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/11_m6qvcw.jpg',
     category: 'waste',
     lightboxSrc:
       'https://res.cloudinary.com/dhfkiaac8/image/upload/v1686321252/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/11_m6qvcw.jpg',
+  },
+  // 여기서 부터
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/16_iecfy1.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/16_iecfy1.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/17_dycbnu.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/17_dycbnu.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/18_toazvc.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/18_toazvc.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/19_spbwop.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308571/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/19_spbwop.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/20_cgxgsr.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/20_cgxgsr.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/c_scale,w_440/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/21_d5yxzt.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/21_d5yxzt.jpg',
+  },
+  {
+    src: 'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/22_llqqpp.jpg',
+    category: 'waste',
+    lightboxSrc:
+      'https://res.cloudinary.com/dhfkiaac8/image/upload/v1687308572/%ED%95%9C%EC%9A%B8%EB%A9%94%ED%83%88%EB%A6%AD%EC%8A%A4/%ED%8F%90%EA%B8%B0%EB%AC%BC%20%EC%B2%98%EB%A6%AC/22_llqqpp.jpg',
   },
 ];

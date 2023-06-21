@@ -22,9 +22,11 @@ export default function Nav() {
           <div className='hover:text-primary'>갤러리</div>
           <div className='invisible absolute bottom-3 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100'>
             <div className='hover:text-primary'>
-              <a href={pathname === '/' ? '#gallery' : '/#gallery'}>
-                간단 갤러리
-              </a>
+              {pathname === '/' ? (
+                <a href='#gallery'>간단 갤러리</a>
+              ) : (
+                <Link href='/#gallery'>간단 갤러리</Link>
+              )}
             </div>
             <div className='hover:text-primary'>
               <Link href='/gallery'>상세 갤러리</Link>
