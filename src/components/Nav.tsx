@@ -13,10 +13,18 @@ export default function Nav() {
           <Link href='/'>홈</Link>
         </li>
         <li className='hover:text-primary'>
-          <a href={pathname === '/' ? '#company' : '/#company'}>회사 소개</a>
+          {pathname === '/' ? (
+            <a href='#company'>회사 소개</a>
+          ) : (
+            <Link href='/#company'>회사 소개</Link>
+          )}
         </li>
         <li className='hover:text-primary'>
-          <a href={pathname === '/' ? '#work' : '/#work'}>주요 업무</a>
+          {pathname === '/' ? (
+            <a href='#work'>주요 업무</a>
+          ) : (
+            <Link href='/#work'>주요 업무</Link>
+          )}
         </li>
         <li className='group cursor-pointer'>
           <div className='hover:text-primary'>갤러리</div>
@@ -34,7 +42,11 @@ export default function Nav() {
           </div>
         </li>
         <li className='hover:text-primary'>
-          <a href={pathname === '/' ? '#inquiry' : '/#inquiry'}>문의</a>
+          {pathname === '/' ? (
+            <a href='#inquiry'>문의</a>
+          ) : (
+            <Link href='/#inquiry'>문의</Link>
+          )}
         </li>
       </ul>
     </nav>

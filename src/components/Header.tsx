@@ -7,9 +7,8 @@ import Nav from './Nav';
 import { useHeaderInteractive } from '../hooks/useHeaderInteractive';
 import logo from '../../public/logo.svg';
 import { CgMenu } from 'react-icons/cg';
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
@@ -78,7 +77,18 @@ export default function Header() {
             icon: <CallIcon />,
           },
         ].map(({ text, href, code, icon }, index) => {
-          if (code === 'home' || code === 'detailGallery') {
+          if (pathname === '/' && code !== 'detailGallery') {
+            return (
+              <ListItem key={text} disablePadding>
+                <a href={href} className='w-full'>
+                  <ListItemButton>
+                    <ListItemIcon>{icon}</ListItemIcon>
+                    <ListItemText primary={text} />
+                  </ListItemButton>
+                </a>
+              </ListItem>
+            );
+          } else if (pathname === '/' && code === 'detailGallery') {
             return (
               <ListItem key={text} disablePadding>
                 <Link href={href} className='w-full'>
@@ -93,12 +103,12 @@ export default function Header() {
 
           return (
             <ListItem key={text} disablePadding>
-              <a href={href} className='w-full'>
+              <Link href={href} className='w-full'>
                 <ListItemButton>
                   <ListItemIcon>{icon}</ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
-              </a>
+              </Link>
             </ListItem>
           );
         })}
