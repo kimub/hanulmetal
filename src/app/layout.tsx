@@ -2,13 +2,13 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const jsonLd = {
-  '@context': 'http://schema.org',
-  '@type': 'Person',
-  name: '한울메탈릭스',
-  url: 'https://www.hanulmetal.co.kr',
-  sameAs: ['https://blog.naver.com/yeon460'],
-};
+// const jsonLd = {
+//   '@context': 'http://schema.org',
+//   '@type': 'Person',
+//   name: '한울메탈릭스',
+//   url: 'https://www.hanulmetal.co.kr',
+//   sameAs: ['https://blog.naver.com/yeon460'],
+// };
 
 export default function RootLayout({
   children,
@@ -71,7 +71,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script>
+        {/* <script type='application/ld+json'>{JSON.stringify(jsonLd)}</script> */}
       </body>
     </html>
   );
